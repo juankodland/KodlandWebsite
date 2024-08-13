@@ -9,7 +9,10 @@ h1{
    font-size: 64px;
 }
 img{
-   border-radius: 14px;}
+   border-radius: 14px;
+   position: absolute;
+   top: 1000px;
+   left: 350px;}
 p{
    color: white;
    text-align: center;
@@ -18,3 +21,4 @@ p{
 li{
    color: white;
 }
+
