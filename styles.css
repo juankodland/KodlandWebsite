@@ -1,17 +1,19 @@
 
 body{
     background-color: #2b2a2a;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Raleway"
 }
 h1{
-   color: white;
+   color: #ff7f50;
    text-align: center;
    font-size: 64px;
+   animation: cambiocolor 1s infinite;
+   animation: flotar 5s infinite;
 }
 img{
    border-radius: 14px;
    position: absolute;
-   top: 1000px;
+   top: 999px;
    left: 350px;}
 p{
    color: white;
@@ -21,4 +23,36 @@ p{
 li{
    color: white;
 }
+@keyframes  cambiocolor{
 
+   10%{
+      color:#ff7f50;
+      }
+   50%{
+      color:#fdc44a;
+      }
+   70%{
+      color:#3e4bfc;
+   }
+   100%{
+      color:#ff7f50;
+      }
+}
+@keyframes flotar {
+   0% {
+     transform: translatey(0px);
+     color:#ff7f50;
+   }
+   50% {
+     transform: translatey(-20px);
+     color:#fdc44a;
+   }
+   70% {
+     transform: translatey(0px);
+     color:#3e4bfc;
+   }
+   100%{
+      transform: translatey(0px);
+      color:#ff7f50;
+ }
+}
